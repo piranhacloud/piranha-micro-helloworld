@@ -6,12 +6,12 @@
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>cloud.piranha.template</groupId>
-    <artifactId>piranha-micro-helloworld</artifactId>
+    <artifactId>piranha-micro-helloworld-template</artifactId>
     <version>1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>Piranha - Micro - Hello World</name>
+    <name>Piranha Micro Hello World template</name>
     <properties>
-        <piranha.version>21.12.0</piranha.version>
+        <piranha.version>22.2.0</piranha.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <build>
@@ -41,7 +41,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.9.0</version>
                 <configuration>
                     <release>17</release>
                 </configuration>
@@ -75,7 +75,7 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>5.8.1</version>
+            <version>5.8.2</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
